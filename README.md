@@ -7,9 +7,11 @@ Der Baustein ist ein Zusatz zum 14497 Netatmo_Basis Baustein und dient zur Kommu
 
 ## Eingänge
 
-| Nr. | Name                | Initialisierung | Beschreibung                                 |
-| --- |---------------------| --- |----------------------------------------------|
-| 1 | Output from (11497) | | Output File vom Baustein 14497 Netatmo Basis |
+| Nr. | Name                | Initialisierung   | Beschreibung                                                 |
+|-----|---------------------|-------------------|--------------------------------------------------------------|
+| 1   | Output from (11497) | 0                 | Output File vom Baustein 14497 Netatmo Basis                 |
+| 2   | Zeitformat 0/1      | 0                 | Soll eine Umwandlung der Zeitausgabe erfolgen. 0=Nein / 1=Ja |
+| 3   | Format Datum-Zeit   | %d-%m-%Y %H:%M:%S | Format der Zeitausgabe                                       |
 
 
 ## Ausgänge
@@ -32,6 +34,8 @@ Der Baustein ist ein Zusatz zum 14497 Netatmo_Basis Baustein und dient zur Kommu
 
 ### Change Log
 
+- v0.3
+      - Zeitformatierung hinzugefuegt
  - v0.2
       - div. Änderungen    
  - v0.1
