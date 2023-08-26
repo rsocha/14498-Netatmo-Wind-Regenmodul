@@ -35,7 +35,7 @@ Der Baustein ist ein Zusatz zum 14497 Netatmo_Basis Baustein und dient zur Kommu
 ### Change Log
 
 - v0.3
-      - Zeitformatierung hinzugefuegt
+  - Zeitformatierung hinzugefuegt
  - v0.2
       - div. Änderungen    
  - v0.1
